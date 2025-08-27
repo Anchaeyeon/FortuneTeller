@@ -69,6 +69,7 @@
             this.btnShowResult.TabIndex = 4;
             this.btnShowResult.Text = "사주팔자 결과 보기";
             this.btnShowResult.UseVisualStyleBackColor = true;
+            this.btnShowResult.Click += new System.EventHandler(this.btnShowResult_Click);
             // 
             // tbBirthtime
             // 
@@ -166,7 +167,7 @@
             // 포츈텔러정보ToolStripMenuItem
             // 
             this.포츈텔러정보ToolStripMenuItem.Name = "포츈텔러정보ToolStripMenuItem";
-            this.포츈텔러정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.포츈텔러정보ToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.포츈텔러정보ToolStripMenuItem.Text = "포츈텔러 정보";
             this.포츈텔러정보ToolStripMenuItem.Click += new System.EventHandler(this.포츈텔러정보ToolStripMenuItem_Click);
             // 
