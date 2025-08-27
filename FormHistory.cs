@@ -56,5 +56,11 @@ namespace FortuneTeller
             lbHistory.Items.Clear();
             lbHistory.Items.AddRange(history.ToArray()); // 하나씩 뽑아서 값 넣어주기
         }
+
+        private void lbHistory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string message = history[lbHistory.SelectedIndex]; // SelectedIndex: 현재 클릭되어 있는 부분의 인덱스
+            form1.LoadHistory(message);
+        }
     }
 }
